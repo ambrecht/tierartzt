@@ -1,5 +1,5 @@
-import React from 'react';
-import PatientList from './components/patientList';
+import React, { useState, useEffect } from 'react';
+import ListView from './views/listView';
 import { createGlobalStyle } from 'styled-components';
 
 //MARKUP
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <PatientList></PatientList>
+      <ListView></ListView>
     </>
   );
 }
@@ -19,8 +19,12 @@ export default App;
 
 const GlobalStyle = createGlobalStyle`
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 :root {
+
+  font-family: '', impact;
   --clr-primary-400: 263 55% 52%;
   --clr-secondary-400: 217 19% 35%;
   --clr-secondary-500: 219 29% 14%;
@@ -75,6 +79,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+ 
+
 }
 
 /* A elements that don't have a class get default styles */
