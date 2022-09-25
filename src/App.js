@@ -1,14 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import ListView from './views/listView';
 import { createGlobalStyle } from 'styled-components';
+
+import PatientDetail from './views/patientDetailView';
+import ListView from './views/listView';
+import FormView from './views/formView';
+import Header from './components/Header';
 
 //MARKUP
 
 function App() {
+  const [ShowFormView, setShowFormView] = useState(0);
+  const [ShowPatientDetail, setShowPatientDetail] = useState(0);
+
+  console.log('KLICK', ShowFormView);
+
   return (
     <>
       <GlobalStyle />
-      <ListView></ListView>
+      <Header></Header>
+      <PatientDetail></PatientDetail>
+      {ShowFormView === 0 && (
+        <ListView onClickShow={setShowFormView}></ListView>
+      )}
+      {ShowFormView !== 0 && (
+        <FormView view={ShowFormView} closeForm={setShowFormView}></FormView>
+      )}
     </>
   );
 }
@@ -79,6 +95,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+
  
 
 }

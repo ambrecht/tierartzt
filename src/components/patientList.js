@@ -13,7 +13,6 @@ export default function PatientList(props) {
         return (
           <Box
             onClick={() => {
-              console.log(patient.pet.image);
               props.onClickPatient(patient.id);
             }}
           >
@@ -41,6 +40,10 @@ const Box = styled.article`
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  :hover {
+    outline: dotted 1px #2c6c69;
+    outline-offset: 2px;
+  }
 `;
 
 const Bild = styled.img`

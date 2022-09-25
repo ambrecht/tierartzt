@@ -10,9 +10,7 @@ import React, { useState, useEffect } from 'react';
 export default function ListView(props) {
   const [allPatients, setAllPatients] = useState([]);
   const [PatientID, setPatientID] = useState(0);
-
   const [allPractices, setAllPractices] = useState([]);
-  const [practicID, setPracticID] = useState(0);
 
   useEffect(() => {
     axios
@@ -30,7 +28,6 @@ export default function ListView(props) {
       .get('  http://localhost:3004/praxen')
       .then(function (response) {
         setAllPractices(response.data);
-        console.log('HOIER', response.data);
       })
       .catch(function (error) {
         console.log(error);
@@ -45,11 +42,23 @@ export default function ListView(props) {
           patients={allPatients}
           onClickPatient={setPatientID}
         ></PatientList>
-        <AddButton></AddButton>
+        <AddButton
+          onPress={() => {
+            props.onClickShow('patient');
+          }}
+        >
+          +
+        </AddButton>
       </List>
       <List>
         <PracticesList practices={allPractices}></PracticesList>
-        <AddButton></AddButton>
+        <AddButton
+          onPress={() => {
+            props.onClickShow('practice');
+          }}
+        >
+          +
+        </AddButton>
       </List>
     </Wrapper>
   );
@@ -58,9 +67,13 @@ export default function ListView(props) {
 //STYLE
 const Wrapper = styled.div`
   display: felx;
+  max-width: 1080px;
+  margin: 0 auto;
 `;
 
 const List = styled.div`
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
+
+  width: 50%;
 `;
