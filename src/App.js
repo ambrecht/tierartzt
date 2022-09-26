@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useLayoutEffect, useCallback } from 'react';
 import { createGlobalStyle } from 'styled-components';
+import useApi from './hooks/useApi';
 
 import PatientDetail from './views/patientDetailView';
+import PracticeDetail from './views/practiceDetailView';
 import ListView from './views/listView';
 import FormView from './views/formView';
 import Header from './components/Header';
@@ -10,20 +12,56 @@ import Header from './components/Header';
 
 function App() {
   const [ShowFormView, setShowFormView] = useState(0);
-  const [ShowPatientDetail, setShowPatientDetail] = useState(0);
 
-  console.log('KLICK', ShowFormView);
+  const { allPractices, allPatients } = useApi();
+  const [showDetail, setShowDetail] = useState(0);
+  const [ID, setID] = useState(0);
+
+  const allData = [...allPractices, ...allPatients];
+
+  const closeDetail = () => {
+    setShowDetail(0);
+
+    setID(0);
+  };
+
+  const defineTarget = (id) => {
+    setID(id);
+    setShowDetail(...allData.filter((patient) => patient.id === id.id));
+  };
+
+  useLayoutEffect(() => {
+    console.log(ID);
+  }, [ID]);
 
   return (
     <>
       <GlobalStyle />
       <Header></Header>
-      <PatientDetail></PatientDetail>
-      {ShowFormView === 0 && (
-        <ListView onClickShow={setShowFormView}></ListView>
+      {showDetail === 0 && ShowFormView === 0 && (
+        <ListView
+          setID={defineTarget}
+          onClickShow={setShowFormView}
+          allPatients={allPatients}
+          allPractices={allPractices}
+        ></ListView>
       )}
+
       {ShowFormView !== 0 && (
         <FormView view={ShowFormView} closeForm={setShowFormView}></FormView>
+      )}
+      {showDetail !== 0 && ID.type === 'patient' && (
+        <PatientDetail
+          patient={showDetail.pet}
+          closeDetail={closeDetail}
+        ></PatientDetail>
+      )}
+
+      {showDetail !== 0 && ID.type === 'practice' && (
+        <PracticeDetail
+          practice={showDetail}
+          closeDetail={closeDetail}
+        ></PracticeDetail>
       )}
     </>
   );

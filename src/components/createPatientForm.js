@@ -1,51 +1,88 @@
 import styled from 'styled-components';
-import { useForm } from 'react-hook-form';
+import axios from 'axios';
+import { createInput } from '../animalData/createAnimalInput';
+import { uid } from 'uid';
 
-export default function CreatePatient() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
-  console.log(errors);
+import { useForm } from 'react-hook-form';
+import { Animals } from '../animalData/listOfAnimals';
+
+export default function CreatePatient(props) {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = async (data) => {
+    const fetchImage = await axios.get(
+      'https://dog.ceo/api/breeds/image/random',
+    );
+
+    console.log(
+      createInput(uid(), fetchImage.data.message, ...Object.values(data)),
+    );
+
+    const ApiInput = createInput(
+      uid(),
+      fetchImage.data.message,
+      ...Object.values(data),
+    );
+
+    axios
+      .post('http://localhost:3004/patienten', ApiInput, {
+        headers: { 'Content-Type': 'application/json' },
+      })
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error.data);
+      });
+  };
 
   return (
     <Wrapper>
       <Form onSubmit={handleSubmit(onSubmit)}>
-        <select {...register('praxis_id')}></select>
+        <label for="Besitzer">Besitzer:</label>
         <input
           type="text"
           placeholder="Besitzer"
           {...register('pet_owner_name', {})}
         />
-        <select {...register('Rasse')}></select>
+        <label for="Praxis">Praxis:</label>
+        <select {...register('praxis_id')}>
+          {' '}
+          {props.allPractices.map((item) => (
+            <option value={item.id}>Praxis in {item.adress.city}</option>
+          ))}
+        </select>
+        <label for="Name">Name des Tiers:</label>
         <input type="text" placeholder="Name" {...register('name', {})} />
-        <input type="datetime" placeholder="Geburt" {...register('DOB', {})} />
+        <label for="Art">Tierart:</label>
+        <select name="Art" {...register('tier_art')}>
+          {Animals.map((item) => (
+            <option value={item}>{item}</option>
+          ))}
+        </select>
+        <input type="date" placeholder="Geburt" {...register('DOB', {})} />
         <div>
-          Gechipt?
+          <label for="Pit">Chip:</label>
           <input
             type="checkbox"
             placeholder="pit_tag"
             {...register('pit_tag', {})}
           />
         </div>
+        <label for="Impfung">Geimpft:</label>
         <input
           type="checkbox"
           placeholder="vaccinations"
           {...register('vaccinations', {})}
         />
+        <label>Wann war der letzte Besuch?</label>
         <input
-          type="datetime"
-          placeholder="last_visit"
+          type="date"
+          placeholder="Wann war der letzte Besuch?"
           {...register('last_visit', {})}
         />
+        <></>
+        <label>Diagnose:</label>
         <textarea {...register('prior_illness', {})} />
-        <input
-          type="url"
-          placeholder="medical_reports"
-          {...register('medical_reports', {})}
-        />
 
         <input type="submit" />
       </Form>

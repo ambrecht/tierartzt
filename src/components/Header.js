@@ -4,7 +4,11 @@ import styled from 'styled-components';
 
 //MARKUP
 export default function MARKUP() {
-  return <Wrapper>VETERINARIUS</Wrapper>;
+  return (
+    <a href="http://localhost:3000/">
+      <Wrapper>VETERINARIUS</Wrapper>
+    </a>
+  );
 }
 
 //STYLE

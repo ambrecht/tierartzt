@@ -4,12 +4,15 @@ import styled from 'styled-components';
 //Markup
 
 export default function PatientList(props) {
-  console.log(props);
   return (
     <Container>
       {props.practices.map((praxis) => {
         return (
-          <Box>
+          <Box
+            onClick={() => {
+              props.onClickPractic({ type: 'practice', id: praxis.id });
+            }}
+          >
             <h1>Praxis: {praxis.id}</h1>
             <p>{praxis.adress.street}</p>
             <p>
@@ -35,6 +38,10 @@ const Box = styled.article`
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  :hover {
+    outline: dotted 1px #2c6c69;
+    outline-offset: 2px;
+  }
 `;
 
 const Bild = styled.img`

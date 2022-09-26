@@ -1,7 +1,9 @@
 import styled from 'styled-components';
+import AddButton from '../components/AddButton';
 
 //MARKUP
 export default function PatientDetail(props) {
+  console.log(props);
   const {
     species,
     name,
@@ -10,12 +12,12 @@ export default function PatientDetail(props) {
     pit_tag,
     vaccinations,
     medical_history,
-  } = props?.patient?.[0]?.pet;
-  console.dir(vaccinations);
+  } = props.patient;
+
   return (
     <Wrapper>
-      {' '}
-      Hier findest du alle Details zu {name}:<img src={image}></img>
+      <AddButton onPress={() => props.closeDetail(0)}>X</AddButton> Hier findest
+      du alle Details zu {name}:<img src={image}></img>
       <p>
         {name} ist ein {species}
       </p>
@@ -29,6 +31,4 @@ export default function PatientDetail(props) {
 }
 
 //STYLE
-const Wrapper = styled.div`
-  background-color: red;
-`;
+const Wrapper = styled.div``;

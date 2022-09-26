@@ -13,7 +13,7 @@ export default function PatientList(props) {
         return (
           <Box
             onClick={() => {
-              props.onClickPatient(patient.id);
+              props.onClickPatient({ type: 'patient', id: patient.id });
             }}
           >
             <Bild alt="" src={patient.pet?.image}></Bild>
