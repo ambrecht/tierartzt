@@ -1,4 +1,39 @@
 {
-  "patienten": [],
-  "praxen": []
+  "patienten": [
+    {
+      "id": "c6bcec8a159",
+      "praxis_id": "acc6bcec8a1",
+      "pet_owner_name": "Bernd",
+      "pet": {
+        "species": "Pavian",
+        "name": "Werner",
+        "image": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1805.jpg",
+        "date_of_birth": "2022-09-16",
+        "pit_tag": "true",
+        "vaccinations": [
+          "true"
+        ],
+        "medical_history": {
+          "last_visit": "2022-09-08",
+          "prior_illness": "Keine",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    }
+  ],
+  "praxen": [
+    {
+      "id": "acc6bcec8a1",
+      "adress": {
+        "street": "Kleiner Weg",
+        "city": "Stadt",
+        "postal_code": "95119"
+      },
+      "employes": {
+        "employes": "Timo Röhn",
+        "number": "0176552343"
+      }
+    }
+  ]
 }

@@ -5,7 +5,7 @@ import PatientList from '../components/patientList';
 //MARKUP
 export default function PatientDetail(props) {
   const Patients = props.animals.filter(
-    (patient) => Number(patient.praxis_id) === props.practice.id,
+    (patient) => patient.praxis_id === props.practice.id,
   );
 
   return (
