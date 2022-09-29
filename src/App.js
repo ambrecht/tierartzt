@@ -30,10 +30,6 @@ function App() {
     setShowDetail(...allData.filter((patient) => patient.id === id.id));
   };
 
-  useLayoutEffect(() => {
-    console.log(ID);
-  }, [ID]);
-
   return (
     <>
       <GlobalStyle />
@@ -59,6 +55,7 @@ function App() {
 
       {showDetail !== 0 && ID.type === 'practice' && (
         <PracticeDetail
+          animals={allPatients}
           practice={showDetail}
           closeDetail={closeDetail}
         ></PracticeDetail>

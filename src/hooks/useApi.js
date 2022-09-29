@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 //MARKUP
@@ -6,7 +6,7 @@ export default function useApi() {
   const [allPatients, setAllPatients] = useState([]);
   const [allPractices, setAllPractices] = useState([]);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     axios
       .get('  http://localhost:3004/patienten')
       .then(function (response) {
@@ -17,7 +17,7 @@ export default function useApi() {
       });
   }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     axios
       .get('  http://localhost:3004/praxen')
       .then(function (response) {

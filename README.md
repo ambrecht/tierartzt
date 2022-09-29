@@ -1,46 +1,61 @@
-# Getting Started with Create React App and Redux
+1. First start the json server: json-server --watch datamodel.json --port 3004
+2. Then start the app: npm run dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+"Generally, the craft of programming is the factoring of a set of requirements
+into a set of functions and data structures."
 
-## Available Scripts
+    - Douglas Crockford
 
-In the project directory, you can run:
+Scenario: In the development of the application, I start from a fictitious
+veterinarian who I ask about his goals and wishes. In a real scenario, the next
+step would then be to evaluate the assumptions made with real users and adapt
+them to the responses.
 
-### `npm start`
+Who is the user? Veterinarian - science education, intermediate technical
+understanding.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+What is the user's problem? The previous applications are too complex and time
+consuming for the veterinarian, he is looking for a simple application in which
+he can easily overview and manage his practices and the animals to be treated.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+What is the goal of the application? The rough core of the application is the
+archiving, documentation and display of practice and patient data.
 
-### `npm test`
+What does the user expect from the application?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Time saving
+- Avoidance of analog systems like paper and folders
+- Access to stored data remotely and via different end devices
 
-### `npm run build`
+Conclusion: Although the user has a scientific background and a medium level of
+understanding, he does not have the time to familiarize himself with complex
+software during his work. The user needs only a few functions and these must be
+self-explanatory and easy to use through the interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The veterinarian himself explains his motivation as follows: "As a veterinarian,
+I want to manage my different practices and patients quickly and easily, the
+less time I need for documentation the more time I have and I finally take care
+of the health of the animals."
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Goals for developing the application:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thus, the goal in developing the application is to be limited to the main
+functions mentioned above. The application should in no way distract the
+veterinarian from his primary goal of animal welfare. Rather, the application
+should integrate itself into his process, almost unnoticed.
 
-### `npm run eject`
+This means that the interface should be minimalistic and functional, no wild
+animations, flashing images, bright colors or attention-grabbing text.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+What does the user not need?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The veterinarian already has a calendar system through which his employees
+manage their appointments. Communication with the customer takes place by
+phone/letter or e-mail.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+What products are already available in this area? https://www.vet40.de/
+https://petleo.net/fuer-praxen-und-kliniken/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+NAME OF THE APP: VETERINARIA, veterinarius
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Translated with www.DeepL.com/Translator (free version)

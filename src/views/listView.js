@@ -15,6 +15,7 @@ export default function ListView(props) {
           patients={props.allPatients}
           onClickPatient={props.setID}
         ></PatientList>
+        Füge einen Patienten hinzu:
         <AddButton
           onPress={() => {
             props.onClickShow('patient');
@@ -28,6 +29,7 @@ export default function ListView(props) {
           practices={props.allPractices}
           onClickPractic={props.setID}
         ></PracticesList>
+        Füge eine Praxis hinzu:
         <AddButton
           onPress={() => {
             props.onClickShow('practice');
