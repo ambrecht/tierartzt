@@ -33,6 +33,8 @@ export default function CreatePatient(props) {
       .catch((error) => {
         console.log(error.data);
       });
+
+    props.close(0);
   };
 
   return (

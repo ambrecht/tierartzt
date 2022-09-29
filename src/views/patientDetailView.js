@@ -22,13 +22,23 @@ export default function PatientDetail(props) {
         {name} ist ein {species}
       </p>
       <p>Er ist am {date_of_birth} geboren</p>
-      <h4>Impfungen</h4>
-      {vaccinations.map((vacc) => (
-        <p>{vacc}</p>
-      ))}
+      <h4>
+        {vaccinations
+          ? 'Er wurde bereits geimpft'
+          : 'Er wurde bisher noch nicht geimpft'}
+      </h4>
     </Wrapper>
   );
 }
 
 //STYLE
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 0 auto;
+
+  img {
+    width: 20vw;
+  }
+`;

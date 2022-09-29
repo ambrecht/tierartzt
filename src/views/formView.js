@@ -14,8 +14,8 @@ export default function MARKUP(props) {
       <AddButton onPress={() => props.closeForm(0)}>X</AddButton>
       {props.view === 'patient' && (
         <CreatePatient
-          allPatients={allPatients}
           allPractices={allPractices}
+          close={props.closeForm}
         ></CreatePatient>
       )}
       {props.view === 'practice' && (

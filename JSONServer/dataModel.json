@@ -20,6 +20,48 @@
           "reports": "undefined"
         }
       }
+    },
+    {
+      "id": "f73fd59f0ab",
+      "praxis_id": "",
+      "pet_owner_name": "Menschn Meyer",
+      "pet": {
+        "species": "Alligator",
+        "name": "Lisiea",
+        "image": "https://images.dog.ceo/breeds/bluetick/n02088632_3640.jpg",
+        "date_of_birth": "2022-09-14",
+        "pit_tag": "true",
+        "vaccinations": [
+          "true"
+        ],
+        "medical_history": {
+          "last_visit": "2022-09-21",
+          "prior_illness": "Keine",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "c609fd29411",
+      "praxis_id": "a7b737ad7d9",
+      "pet_owner_name": "Sigrun",
+      "pet": {
+        "species": "Esel",
+        "name": "Kugolo",
+        "image": "https://images.dog.ceo/breeds/briard/n02105251_917.jpg",
+        "date_of_birth": "2022-09-20",
+        "pit_tag": "true",
+        "vaccinations": [
+          "true"
+        ],
+        "medical_history": {
+          "last_visit": "2022-09-18",
+          "prior_illness": "Ein Esel kann nicht gleichzeitig ein Hund sein.",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
     }
   ],
   "praxen": [
@@ -33,6 +75,18 @@
       "employes": {
         "employes": "Timo Röhn",
         "number": "0176552343"
+      }
+    },
+    {
+      "id": "a7b737ad7d9",
+      "adress": {
+        "street": "Kuckucksnest. 80",
+        "city": "Höllenthal",
+        "postal_code": "778666"
+      },
+      "employes": {
+        "employes": "Maria Schwab",
+        "number": "01762273"
       }
     }
   ]
