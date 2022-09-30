@@ -3,7 +3,7 @@ import PatientList from '../components/patientList';
 import PracticesList from '../components/practicesList';
 import AddButton from '../components/AddButton';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 //MARKUP
 export default function ListView(props) {

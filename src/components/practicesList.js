@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 //Markup
@@ -36,12 +36,17 @@ const Container = styled.div`
 
 const Box = styled.article`
   font-size: var(--fs-400);
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  text-align: center;
+  transition: transform 0.2s;
+
   :hover {
-    outline: dotted 1px #2c6c69;
-    outline-offset: 2px;
+    transform: scale(1.3);
+    border: none;
   }
 `;
 
