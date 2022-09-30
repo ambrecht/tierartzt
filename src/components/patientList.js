@@ -53,7 +53,7 @@ const Box = styled.article`
     img {
       transform: scale(1.5);
     }
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 `;
 
