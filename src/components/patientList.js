@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import styled from 'styled-components';
 
-import AddButton from './AddButton';
-
 //Markup
 
 export default function PatientList(props) {
@@ -42,18 +40,27 @@ const Container = styled.div`
 
 const Box = styled.article`
   font-size: var(--fs-400);
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   text-align: center;
   transition: transform 0.2s;
+
   :hover {
     outline: dotted 1px #2c6c69;
     outline-offset: 2px;
     img {
-      transform: scale(1.5);
+      transform: scale(2);
+      float: left;
+      z-index: -1000;
     }
-    transform: scale(1.2);
+
+    p {
+      display: flex;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
   }
 `;
 
@@ -67,12 +74,13 @@ const PetName = styled.p`
   font-size: var(--fs-500);
   font-weight: var(--fw-400);
   line-height: 1;
-  color: grey;
+  color: black;
+  padding: 1rem;
 `;
 
 const Visit = styled.p`
   font-size: var(--fs-300);
-  font-weight: var(--fw-400);
+  font-weight: 00.5rem;
   line-height: 1;
-  color: green;
+  color: black;
 `;

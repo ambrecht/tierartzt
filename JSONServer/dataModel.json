@@ -10,7 +10,9 @@
         "image": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1805.jpg",
         "date_of_birth": "2022-09-16",
         "pit_tag": "true",
-        "vaccinations": ["true"],
+        "vaccinations": [
+          "true"
+        ],
         "medical_history": {
           "last_visit": "2022-09-08",
           "prior_illness": "Keine",
@@ -29,7 +31,9 @@
         "image": "https://images.dog.ceo/breeds/bluetick/n02088632_3640.jpg",
         "date_of_birth": "2022-09-14",
         "pit_tag": "true",
-        "vaccinations": ["true"],
+        "vaccinations": [
+          "true"
+        ],
         "medical_history": {
           "last_visit": "2022-09-21",
           "prior_illness": "Keine",
@@ -48,10 +52,33 @@
         "image": "https://images.dog.ceo/breeds/briard/n02105251_917.jpg",
         "date_of_birth": "2022-09-20",
         "pit_tag": "true",
-        "vaccinations": ["true"],
+        "vaccinations": [
+          "true"
+        ],
         "medical_history": {
           "last_visit": "2022-09-18",
           "prior_illness": "Ein Esel kann nicht gleichzeitig ein Hund sein.",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "04df75c4d89",
+      "praxis_id": "a7b737ad7d9",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/shihtzu/n02086240_1725.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
           "current_medications": "none",
           "reports": "undefined"
         }
