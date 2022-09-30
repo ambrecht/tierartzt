@@ -50,6 +50,7 @@ const Box = styled.article`
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   text-align: center;
   transition: transform 0.8s;
+  cursor: pointer;
 
   :hover {
     outline: dotted 1px #2c6c69;

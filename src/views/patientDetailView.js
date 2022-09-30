@@ -13,8 +13,6 @@ export default function PatientDetail(props) {
     medical_history,
   } = props.patient;
 
-  console.log(medical_history);
-
   return (
     <Wrapper>
       <AddButton onPress={() => props.closeDetail(0)}>X</AddButton> Hier findest
@@ -28,6 +26,7 @@ export default function PatientDetail(props) {
           ? 'Er wurde bereits geimpft'
           : 'Er wurde bisher noch nicht geimpft'}
       </h4>
+      <p>Letzte Diagnose:{medical_history.prior_illness}</p>
     </Wrapper>
   );
 }

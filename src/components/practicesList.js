@@ -52,6 +52,7 @@ const Box = styled.article`
   border-style: solid;
   text-align: center;
   transition: transform 0.2s;
+  cursor: pointer;
 
   :hover {
     transform: scale(1.1);
