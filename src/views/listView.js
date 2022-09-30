@@ -10,33 +10,35 @@ export default function ListView(props) {
   return (
     <Wrapper>
       <List>
+        LISTE ALLER PATIENTEN:
         {props.PatientID}
         <PatientList
           patients={props.allPatients}
           onClickPatient={props.setID}
         ></PatientList>
         Füge einen Patienten hinzu:
-        <AddButton
+        <Button
           onPress={() => {
             props.onClickShow('patient');
           }}
         >
           +
-        </AddButton>
+        </Button>
       </List>
       <List>
+        LISTE ALLER PRAXEN:
         <PracticesList
           practices={props.allPractices}
           onClickPractic={props.setID}
         ></PracticesList>
         Füge eine Praxis hinzu:
-        <AddButton
+        <Button
           onPress={() => {
             props.onClickShow('practice');
           }}
         >
           +
-        </AddButton>
+        </Button>
       </List>
     </Wrapper>
   );
@@ -54,4 +56,10 @@ const List = styled.div`
   flex-direction: column;
 
   width: 50%;
+`;
+
+const Button = styled(AddButton)`
+  display: fixed;
+  background-color: red;
+  width: 500vw;
 `;

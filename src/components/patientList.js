@@ -33,6 +33,8 @@ const Container = styled.div`
   max-width: 490px;
   width: 100%;
   border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 2fr));
 `;
 
 const Box = styled.article`

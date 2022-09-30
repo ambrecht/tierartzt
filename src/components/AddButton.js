@@ -7,6 +7,7 @@ export default function AddButton(props) {
 
 //STYLE
 const Button = styled.button`
+  display: fixed;
   width: 5vw;
   height: 5vw;
   padding: 1ex 1ch;

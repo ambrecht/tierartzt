@@ -62,6 +62,90 @@
           "reports": "undefined"
         }
       }
+    },
+    {
+      "id": "95cebb090ea",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/cattledog-australian/IMG_2432.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "0cda1c338b3",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_276.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "73cf643b95c",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/bulldog-english/murphy.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "cf643b95cea",
+      "praxis_id": "a7b737ad7d9",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/setter-english/n02100735_4870.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
     }
   ],
   "praxen": [
@@ -87,6 +171,30 @@
       "employes": {
         "employes": "Maria Schwab",
         "number": "01762273"
+      }
+    },
+    {
+      "id": "5f335578d9b",
+      "adress": {
+        "street": "",
+        "city": "",
+        "postal_code": ""
+      },
+      "employes": {
+        "employes": "",
+        "number": ""
+      }
+    },
+    {
+      "id": "f335578d9be",
+      "adress": {
+        "street": "",
+        "city": "",
+        "postal_code": ""
+      },
+      "employes": {
+        "employes": "",
+        "number": ""
       }
     }
   ]

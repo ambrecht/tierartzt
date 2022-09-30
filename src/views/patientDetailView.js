@@ -39,6 +39,6 @@ const Wrapper = styled.div`
   margin: 0 auto;
 
   img {
-    width: 20vw;
+    max-height: 80vh;
   }
 `;

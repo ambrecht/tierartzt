@@ -1,4 +1,7 @@
-1. First start the json server: json-server --watch datamodel.json --port 3004
+1. First:
+
+### start the json server: json-server --watch datamodel.json --port 3004
+
 2. Then start the app: npm run dev
 
 "Generally, the craft of programming is the factoring of a set of requirements
@@ -57,5 +60,3 @@ What products are already available in this area? https://www.vet40.de/
 https://petleo.net/fuer-praxen-und-kliniken/
 
 NAME OF THE APP: VETERINARIA, veterinarius
-
-Translated with www.DeepL.com/Translator (free version)
