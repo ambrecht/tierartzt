@@ -12,6 +12,13 @@ export default function ListView(props) {
       <List>
         LISTE ALLER PATIENTEN:
         {props.PatientID}
+        <Button
+          onPress={() => {
+            props.onClickShow('patient');
+          }}
+        >
+          +
+        </Button>
         <PatientList
           patients={props.allPatients}
           onClickPatient={props.setID}
@@ -25,21 +32,30 @@ export default function ListView(props) {
           +
         </Button>
       </List>
-      <List>
-        LISTE ALLER PRAXEN:
-        <PracticesList
-          practices={props.allPractices}
-          onClickPractic={props.setID}
-        ></PracticesList>
-        Füge eine Praxis hinzu:
-        <Button
-          onPress={() => {
-            props.onClickShow('practice');
-          }}
-        >
-          +
-        </Button>
-      </List>
+      {
+        <List>
+          LISTE ALLER PRAXEN:
+          <Button
+            onPress={() => {
+              props.onClickShow('practice');
+            }}
+          >
+            +
+          </Button>
+          <PracticesList
+            practices={props.allPractices}
+            onClickPractic={props.setID}
+          ></PracticesList>
+          Füge eine Praxis hinzu:
+          <Button
+            onPress={() => {
+              props.onClickShow('practice');
+            }}
+          >
+            +
+          </Button>
+        </List>
+      }
     </Wrapper>
   );
 }
@@ -49,6 +65,7 @@ const Wrapper = styled.div`
   display: felx;
   max-width: 1080px;
   margin: 0 auto;
+  width: 100vw;
 `;
 
 const List = styled.div`

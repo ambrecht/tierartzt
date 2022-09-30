@@ -146,6 +146,531 @@
           "reports": "undefined"
         }
       }
+    },
+    {
+      "id": "023434e38bc",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/redbone/n02090379_1736.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "3434e38bce8",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/doberman/n02107142_2153.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "34e38bce8f7",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/maltese/n02085936_3678.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "e38bce8f735",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/coonhound/n02089078_715.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "8bce8f735db",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/entlebucher/n02108000_1881.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "ce8f735db08",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/setter-gordon/n02101006_677.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "8f735db08a8",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/terrier-dandie/n02096437_2504.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "735db08a827",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/pitbull/20190801_154956.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "5db08a827fc",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/vizsla/n02100583_13656.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "b08a827fcca",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/cotondetulear/IMG_20160830_202631573.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "8a827fccad7",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/terrier-irish/n02093991_373.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "827fccad764",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/pug/IMG_3507.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "7fccad7648d",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1132.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "ccad7648d41",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/bullterrier-staffordshire/20200820_131119.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "ad7648d41c8",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/kuvasz/n02104029_3942.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "7648d41c855",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191030212452971_COVER.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "f6b79e512ba",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/stbernard/n02109525_18371.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "6b79e512ba7",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/terrier-bedlington/n02093647_1120.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "b79e512ba7b",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/bulldog-boston/n02096585_2828.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "79e512ba7ba",
+      "praxis_id": "5f335578d9b",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/spaniel-sussex/n02102480_6998.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "9e512ba7baf",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/basenji/n02110806_4179.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "e512ba7baf4",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_3737.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "512ba7baf46",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/springer-english/n02102040_3228.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "12ba7baf461",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/komondor/n02105505_769.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
+    },
+    {
+      "id": "2ba7baf4615",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/groenendael/n02105056_4407.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
     }
   ],
   "praxen": [
@@ -187,6 +712,30 @@
     },
     {
       "id": "f335578d9be",
+      "adress": {
+        "street": "",
+        "city": "",
+        "postal_code": ""
+      },
+      "employes": {
+        "employes": "",
+        "number": ""
+      }
+    },
+    {
+      "id": "ba7baf46151",
+      "adress": {
+        "street": "",
+        "city": "",
+        "postal_code": ""
+      },
+      "employes": {
+        "employes": "",
+        "number": ""
+      }
+    },
+    {
+      "id": "a7baf461510",
       "adress": {
         "street": "",
         "city": "",

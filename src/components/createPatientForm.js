@@ -13,10 +13,6 @@ export default function CreatePatient(props) {
       'https://dog.ceo/api/breeds/image/random',
     );
 
-    console.log(
-      createInput(uid(), fetchImage.data.message, ...Object.values(data)),
-    );
-
     const ApiInput = createInput(
       uid(),
       fetchImage.data.message,
@@ -33,7 +29,7 @@ export default function CreatePatient(props) {
       .catch((error) => {
         console.log(error.data);
       });
-
+    props.refresh();
     props.close(0);
   };
 

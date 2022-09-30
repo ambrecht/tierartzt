@@ -2,9 +2,14 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 //MARKUP
-export default function useApi() {
+export default function useApi(ID) {
   const [allPatients, setAllPatients] = useState([]);
   const [allPractices, setAllPractices] = useState([]);
+  const [refreshIndex, setRefreshIndex] = useState(0);
+
+  const refresh = () => {
+    setRefreshIndex(refreshIndex + 1);
+  };
 
   useEffect(() => {
     axios
@@ -15,7 +20,7 @@ export default function useApi() {
       .catch(function (error) {
         console.log(error);
       });
-  }, []);
+  }, [ID, refreshIndex]);
 
   useEffect(() => {
     axios
@@ -26,7 +31,7 @@ export default function useApi() {
       .catch(function (error) {
         console.log(error);
       });
-  }, []);
+  }, [ID, refreshIndex]);
 
-  return { allPractices, allPatients };
+  return [allPractices, allPatients, refresh];
 }

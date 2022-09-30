@@ -39,6 +39,10 @@ const Wrapper = styled.div`
   margin: 0 auto;
 
   img {
+    height: auto;
+    width: auto;
+    max-width: 66vw;
     max-height: 80vh;
+    object-fit: contain;
   }
 `;

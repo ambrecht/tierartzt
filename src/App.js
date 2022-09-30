@@ -13,9 +13,9 @@ import Header from './components/Header';
 function App() {
   const [ShowFormView, setShowFormView] = useState(0);
 
-  const { allPractices, allPatients } = useApi();
   const [showDetail, setShowDetail] = useState(0);
   const [ID, setID] = useState(0);
+  const [allPractices, allPatients, refresh] = useApi(ID);
 
   const allData = [...allPractices, ...allPatients];
 
@@ -44,7 +44,11 @@ function App() {
       )}
 
       {ShowFormView !== 0 && (
-        <FormView view={ShowFormView} closeForm={setShowFormView}></FormView>
+        <FormView
+          view={ShowFormView}
+          closeForm={setShowFormView}
+          refresh={refresh}
+        ></FormView>
       )}
       {showDetail !== 0 && ID.type === 'patient' && (
         <PatientDetail

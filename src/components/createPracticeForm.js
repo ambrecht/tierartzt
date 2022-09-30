@@ -9,9 +9,7 @@ import { useForm } from 'react-hook-form';
 export default function CreatePatient(props) {
   const { register, handleSubmit } = useForm();
   const onSubmit = async (data) => {
-    console.log(data);
     const ApiInput = createInput(uid(), ...Object.values(data));
-    props.close(0);
 
     axios
       .post('http://localhost:3004/praxen', ApiInput, {
@@ -23,6 +21,8 @@ export default function CreatePatient(props) {
       .catch((error) => {
         console.log(error.data);
       });
+    props.refresh();
+    props.close(0);
   };
 
   return (

@@ -8,7 +8,7 @@ import useApi from '../hooks/useApi';
 
 //MARKUP
 export default function MARKUP(props) {
-  const { allPractices, allPatients } = useApi();
+  const [allPractices] = useApi();
   return (
     <Wrapper>
       <AddButton onPress={() => props.closeForm(0)}>X</AddButton>
@@ -16,10 +16,14 @@ export default function MARKUP(props) {
         <CreatePatient
           allPractices={allPractices}
           close={props.closeForm}
+          refresh={props.refresh}
         ></CreatePatient>
       )}
       {props.view === 'practice' && (
-        <CreatePractice close={props.closeForm}></CreatePractice>
+        <CreatePractice
+          close={props.closeForm}
+          refresh={props.refresh}
+        ></CreatePractice>
       )}
     </Wrapper>
   );
