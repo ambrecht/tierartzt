@@ -12,12 +12,14 @@ export default function PatientDetail(props) {
     <Wrapper>
       <AddButton onPress={() => props.closeDetail(0)}>X</AddButton>
       <Box>
-        Zu dieser Praxis gehören folgenden Patienten:
-        <PatientList patients={Patients}></PatientList>
         Folgender Mitarbeiter ist für die Praxis verantwortlich:
         <h3>{props.practice.employes.employes}</h3>
         Erreichbar unter der Nummer:
         {props.practice.employes.number}
+      </Box>
+      <Box>
+        Zu dieser Praxis gehören folgenden Patienten:
+        <PatientList patients={Patients}></PatientList>
       </Box>
     </Wrapper>
   );
@@ -25,9 +27,12 @@ export default function PatientDetail(props) {
 
 //STYLE
 const Wrapper = styled.div`
-  display: felx;
-  max-width: 1080px;
+  max-width: 100vw;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Box = styled.article`

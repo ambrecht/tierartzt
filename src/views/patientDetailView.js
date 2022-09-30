@@ -13,6 +13,8 @@ export default function PatientDetail(props) {
     medical_history,
   } = props.patient;
 
+  console.log(medical_history);
+
   return (
     <Wrapper>
       <AddButton onPress={() => props.closeDetail(0)}>X</AddButton> Hier findest

@@ -49,7 +49,7 @@ const Box = styled.article`
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   text-align: center;
-  transition: transform 0.2s;
+  transition: transform 0.8s;
 
   :hover {
     outline: dotted 1px #2c6c69;
@@ -59,6 +59,7 @@ const Box = styled.article`
       transform: scale(2);
       float: left;
       z-index: 0;
+      filter: grayscale(0%);
     }
 
     p {
@@ -72,6 +73,7 @@ const Bild = styled.img`
   width: 5rem;
   aspect-ratio: 1;
   border-radius: 50%;
+  filter: grayscale(100%);
 `;
 
 const PetName = styled.p`

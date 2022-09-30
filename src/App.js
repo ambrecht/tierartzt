@@ -134,6 +134,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  max-width: 100vw;
 
  
 

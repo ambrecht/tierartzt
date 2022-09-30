@@ -44,7 +44,8 @@ const Box = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
+  margin: 0.5rem;
   border: 0.01rem solid;
   border-radius: 1rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
