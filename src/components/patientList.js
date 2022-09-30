@@ -10,6 +10,7 @@ export default function PatientList(props) {
       {props.patients.map((patient) => {
         return (
           <Box
+            key={patient.id}
             onClick={() => {
               props.onClickPatient({ type: 'patient', id: patient.id });
             }}

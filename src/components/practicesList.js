@@ -9,6 +9,7 @@ export default function PatientList(props) {
       {props.practices.map((praxis) => {
         return (
           <Box
+            key={praxis.id}
             onClick={() => {
               props.onClickPractic({ type: 'practice', id: praxis.id });
             }}

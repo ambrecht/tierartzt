@@ -46,7 +46,9 @@ export default function CreatePatient(props) {
         <select {...register('praxis_id')}>
           {' '}
           {props.allPractices.map((item) => (
-            <option value={item.id}>Praxis in {item.adress.city}</option>
+            <option key={item.id} value={item.id}>
+              Praxis in {item.adress.city}
+            </option>
           ))}
         </select>
         <label for="Name">Name des Tiers:</label>
