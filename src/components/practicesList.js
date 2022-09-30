@@ -15,10 +15,12 @@ export default function PatientList(props) {
             }}
           >
             <h1>Praxis: {praxis.id}</h1>
-            <p>{praxis.adress.street}</p>
-            <p>
-              {praxis.adress.postal_code} {praxis.adress.city}
-            </p>
+            <Details>
+              <p>{praxis.adress.street}</p>
+              <p>
+                {praxis.adress.postal_code} {praxis.adress.city}
+              </p>
+            </Details>
           </Box>
         );
       })}
@@ -35,18 +37,30 @@ const Container = styled.div`
 `;
 
 const Box = styled.article`
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   display: flex;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
-  border-radius: 0.5rem;
+  border: 0.01rem solid;
+  border-radius: 1rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  border-style: solid;
   text-align: center;
   transition: transform 0.2s;
 
   :hover {
-    transform: scale(1.3);
-    border: none;
+    transform: scale(1.1);
+    border: 0.01rem solid;
+    border-radius: 1rem;
+    background-color: #ebebeb;
+
+    div {
+      display: block;
+    }
   }
 `;
 
@@ -60,4 +74,8 @@ const PetName = styled.p`
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
   line-height: 1;
+`;
+
+const Details = styled.div`
+  display: none;
 `;

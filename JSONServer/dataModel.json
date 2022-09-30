@@ -1,147 +1,84 @@
 {
   "patienten": [
     {
-      "id": "c6bcec8a159",
-      "praxis_id": "acc6bcec8a1",
-      "pet_owner_name": "Bernd",
+      "id": "28b359867f5",
+      "praxis_id": "de46d5a7704",
+      "pet_owner_name": "Maria Auge",
       "pet": {
-        "species": "Pavian",
+        "species": "Hund",
         "name": "Werner",
-        "image": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1805.jpg",
-        "date_of_birth": "2022-09-16",
+        "image": "https://images.dog.ceo/breeds/whippet/n02091134_14932.jpg",
+        "date_of_birth": "2022-09-09",
         "pit_tag": "true",
         "vaccinations": [
           "true"
         ],
         "medical_history": {
-          "last_visit": "2022-09-08",
-          "prior_illness": "Keine",
+          "last_visit": "2022-09-01",
+          "prior_illness": "Der Hund förhnt fröhlich dem Leben!",
           "current_medications": "none",
           "reports": "undefined"
         }
       }
     },
     {
-      "id": "f73fd59f0ab",
-      "praxis_id": "",
-      "pet_owner_name": "Menschn Meyer",
+      "id": "8b359867f57",
+      "praxis_id": "f9de46d5a77",
+      "pet_owner_name": "Gustav Klinger",
       "pet": {
-        "species": "Alligator",
-        "name": "Lisiea",
-        "image": "https://images.dog.ceo/breeds/bluetick/n02088632_3640.jpg",
-        "date_of_birth": "2022-09-14",
+        "species": "Hund",
+        "name": "Hugo",
+        "image": "https://images.dog.ceo/breeds/vizsla/n02100583_10960.jpg",
+        "date_of_birth": "1824-08-20",
         "pit_tag": "true",
         "vaccinations": [
           "true"
         ],
         "medical_history": {
-          "last_visit": "2022-09-21",
-          "prior_illness": "Keine",
+          "last_visit": "2022-09-22",
+          "prior_illness": "Dieser Hund stirbt aus unbekannten Gründen nicht. Ein Wunder! Trotz des Alters KERNGESUND und sogar verspielt!",
           "current_medications": "none",
           "reports": "undefined"
         }
       }
     },
     {
-      "id": "c609fd29411",
-      "praxis_id": "a7b737ad7d9",
-      "pet_owner_name": "Sigrun",
+      "id": "b359867f574",
+      "praxis_id": "f9de46d5a77",
+      "pet_owner_name": "Tino Ambrecht",
       "pet": {
-        "species": "Esel",
-        "name": "Kugolo",
-        "image": "https://images.dog.ceo/breeds/briard/n02105251_917.jpg",
-        "date_of_birth": "2022-09-20",
+        "species": "Hund",
+        "name": "Konstantin",
+        "image": "https://images.dog.ceo/breeds/terrier-tibetan/n02097474_3226.jpg",
+        "date_of_birth": "2016-05-03",
         "pit_tag": "true",
         "vaccinations": [
           "true"
         ],
         "medical_history": {
-          "last_visit": "2022-09-18",
-          "prior_illness": "Ein Esel kann nicht gleichzeitig ein Hund sein.",
+          "last_visit": "2022-09-02",
+          "prior_illness": "Beim spielen das rechte Hinterbein leicht verstaucht.",
           "current_medications": "none",
           "reports": "undefined"
         }
       }
     },
     {
-      "id": "04df75c4d89",
-      "praxis_id": "a7b737ad7d9",
-      "pet_owner_name": "",
+      "id": "359867f5742",
+      "praxis_id": "f9de46d5a77",
+      "pet_owner_name": "Paul Häberlin",
       "pet": {
-        "species": "Aardvark",
-        "name": "",
-        "image": "https://images.dog.ceo/breeds/shihtzu/n02086240_1725.jpg",
-        "date_of_birth": "",
-        "pit_tag": "false",
+        "species": "Hund",
+        "name": "Napoleon",
+        "image": "https://images.dog.ceo/breeds/labradoodle/labradoodle-forrest.png",
+        "date_of_birth": "2013-08-21",
+        "pit_tag": "true",
         "vaccinations": [
-          "false"
+          "true"
         ],
         "medical_history": {
-          "last_visit": "",
-          "prior_illness": "",
-          "current_medications": "none",
-          "reports": "undefined"
-        }
-      }
-    },
-    {
-      "id": "9528e49f01c",
-      "praxis_id": "",
-      "pet_owner_name": "",
-      "pet": {
-        "species": "Aardvark",
-        "name": "",
-        "image": "https://images.dog.ceo/breeds/hound-afghan/n02088094_13502.jpg",
-        "date_of_birth": "",
-        "pit_tag": "false",
-        "vaccinations": [
-          "false"
-        ],
-        "medical_history": {
-          "last_visit": "",
-          "prior_illness": "",
-          "current_medications": "none",
-          "reports": "undefined"
-        }
-      }
-    },
-    {
-      "id": "528e49f01c9",
-      "praxis_id": "",
-      "pet_owner_name": "",
-      "pet": {
-        "species": "Aardvark",
-        "name": "",
-        "image": "https://images.dog.ceo/breeds/chihuahua/n02085620_1620.jpg",
-        "date_of_birth": "",
-        "pit_tag": "false",
-        "vaccinations": [
-          "false"
-        ],
-        "medical_history": {
-          "last_visit": "",
-          "prior_illness": "",
-          "current_medications": "none",
-          "reports": "undefined"
-        }
-      }
-    },
-    {
-      "id": "28e49f01c95",
-      "praxis_id": "",
-      "pet_owner_name": "",
-      "pet": {
-        "species": "Aardvark",
-        "name": "",
-        "image": "https://images.dog.ceo/breeds/dane-great/n02109047_24710.jpg",
-        "date_of_birth": "",
-        "pit_tag": "false",
-        "vaccinations": [
-          "false"
-        ],
-        "medical_history": {
-          "last_visit": "",
-          "prior_illness": "",
+          "last_visit": "2022-09-01",
+          "prior_illness": "Keine Auffälligkeiten",
           "current_medications": "none",
           "reports": "undefined"
         }
@@ -150,75 +87,39 @@
   ],
   "praxen": [
     {
-      "id": "acc6bcec8a1",
+      "id": "f9de46d5a77",
       "adress": {
-        "street": "Kleiner Weg",
-        "city": "Stadt",
-        "postal_code": "95119"
+        "street": "Einsstraße. 12",
+        "city": "Eisenstadt",
+        "postal_code": "7782"
       },
       "employes": {
-        "employes": "Timo Röhn",
-        "number": "0176552343"
+        "employes": "Martin Eisenfresser",
+        "number": "01764423214"
       }
     },
     {
-      "id": "a7b737ad7d9",
+      "id": "9de46d5a770",
       "adress": {
-        "street": "Kuckucksnest. 80",
-        "city": "Höllenthal",
-        "postal_code": "778666"
+        "street": "Zweistrasse. 176",
+        "city": "Köln",
+        "postal_code": "1023"
       },
       "employes": {
-        "employes": "Maria Schwab",
-        "number": "01762273"
+        "employes": "Rüdiger Katz",
+        "number": "01675534417"
       }
     },
     {
-      "id": "5f335578d9b",
+      "id": "de46d5a7704",
       "adress": {
-        "street": "",
-        "city": "",
-        "postal_code": ""
+        "street": "Dreistr. 13",
+        "city": "Rehau",
+        "postal_code": "95776"
       },
       "employes": {
-        "employes": "",
-        "number": ""
-      }
-    },
-    {
-      "id": "f335578d9be",
-      "adress": {
-        "street": "",
-        "city": "",
-        "postal_code": ""
-      },
-      "employes": {
-        "employes": "",
-        "number": ""
-      }
-    },
-    {
-      "id": "ba7baf46151",
-      "adress": {
-        "street": "",
-        "city": "",
-        "postal_code": ""
-      },
-      "employes": {
-        "employes": "",
-        "number": ""
-      }
-    },
-    {
-      "id": "a7baf461510",
-      "adress": {
-        "street": "",
-        "city": "",
-        "postal_code": ""
-      },
-      "employes": {
-        "employes": "",
-        "number": ""
+        "employes": "Frank Waldlauf",
+        "number": "0175664321"
       }
     }
   ]

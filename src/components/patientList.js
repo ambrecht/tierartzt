@@ -43,6 +43,8 @@ const Box = styled.article`
   font-size: var(--fs-400);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
@@ -52,10 +54,11 @@ const Box = styled.article`
   :hover {
     outline: dotted 1px #2c6c69;
     outline-offset: 2px;
+    background-color: #ebebeb;
     img {
       transform: scale(2);
       float: left;
-      z-index: -1000;
+      z-index: 0;
     }
 
     p {
