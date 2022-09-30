@@ -46,9 +46,14 @@ const Box = styled.article`
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
   text-align: center;
+  transition: transform 0.2s;
   :hover {
     outline: dotted 1px #2c6c69;
     outline-offset: 2px;
+    img {
+      transform: scale(1.5);
+    }
+    transform: scale(1.5);
   }
 `;
 
