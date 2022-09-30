@@ -3,7 +3,6 @@ import AddButton from '../components/AddButton';
 
 //MARKUP
 export default function PatientDetail(props) {
-  console.log(props);
   const {
     species,
     name,

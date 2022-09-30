@@ -8,8 +8,6 @@ export default function PatientDetail(props) {
     (patient) => patient.praxis_id === props.practice.id,
   );
 
-  console.log(props.practice.employes.employes);
-
   return (
     <Wrapper>
       <AddButton onPress={() => props.closeDetail(0)}>X</AddButton>
