@@ -7,23 +7,26 @@ import styled from 'styled-components';
 export default function PatientList(props) {
   return (
     <Container>
-      {props.patients.reverse().map((patient) => {
-        return (
-          <Box
-            key={patient.id}
-            onClick={() => {
-              props.onClickPatient({ type: 'patient', id: patient.id });
-            }}
-          >
-            <Bild alt="" src={patient.pet?.image}></Bild>
-            <PetName>{patient.pet?.name}</PetName>
-            <Visit>
-              Letzter Besuch:{patient.pet?.medical_history.last_visit}
-            </Visit>
-            <p>Besitzer: {patient.pet_owner_name}</p>
-          </Box>
-        );
-      })}
+      {props.patients
+        .slice(0)
+        .reverse()
+        .map((patient) => {
+          return (
+            <Box
+              key={patient.id}
+              onClick={() => {
+                props.onClickPatient({ type: 'patient', id: patient.id });
+              }}
+            >
+              <Bild alt="" src={patient.pet?.image}></Bild>
+              <PetName>{patient.pet?.name}</PetName>
+              <Visit>
+                Letzter Besuch:{patient.pet?.medical_history.last_visit}
+              </Visit>
+              <p>Besitzer: {patient.pet_owner_name}</p>
+            </Box>
+          );
+        })}
     </Container>
   );
 }

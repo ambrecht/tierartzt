@@ -104,6 +104,27 @@
           "reports": "undefined"
         }
       }
+    },
+    {
+      "id": "7f8f6507ea7",
+      "praxis_id": "de46d5a7704",
+      "pet_owner_name": "Sebastian Freiheit",
+      "pet": {
+        "species": "Hund",
+        "name": "Platon",
+        "image": "https://images.dog.ceo/breeds/terrier-irish/n02093991_2698.jpg",
+        "date_of_birth": "2022-10-04",
+        "pit_tag": "true",
+        "vaccinations": [
+          "true"
+        ],
+        "medical_history": {
+          "last_visit": "2022-10-18",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
     }
   ],
   "praxen": [
