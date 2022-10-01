@@ -7,7 +7,7 @@ import styled from 'styled-components';
 export default function PatientList(props) {
   return (
     <Container>
-      {props.patients.map((patient) => {
+      {props.patients.reverse().map((patient) => {
         return (
           <Box
             key={patient.id}
@@ -57,10 +57,11 @@ const Box = styled.article`
     outline-offset: 2px;
     background-color: #ebebeb;
     img {
-      transform: scale(2);
+      transform: scale(1.5);
       float: left;
       z-index: 0;
       filter: grayscale(0%);
+      border-radius: 10%;
     }
 
     p {

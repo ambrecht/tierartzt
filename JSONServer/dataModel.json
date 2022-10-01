@@ -83,6 +83,27 @@
           "reports": "undefined"
         }
       }
+    },
+    {
+      "id": "942465ff5a8",
+      "praxis_id": "",
+      "pet_owner_name": "",
+      "pet": {
+        "species": "Aardvark",
+        "name": "",
+        "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2029.jpg",
+        "date_of_birth": "",
+        "pit_tag": "false",
+        "vaccinations": [
+          "false"
+        ],
+        "medical_history": {
+          "last_visit": "",
+          "prior_illness": "",
+          "current_medications": "none",
+          "reports": "undefined"
+        }
+      }
     }
   ],
   "praxen": [
